@@ -275,25 +275,26 @@ Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜ
 <b>Example:</b> <code>/ytthumb https://youtu.be/h6PtzFYaMxQ</code>
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+•Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
     PASSWORD_GEN_TXT = """Help: <b>Password Generator</b>
 
-There Is Nothing To Know More. Send Me The Limit Of Your Password.
-- I Will Give The Password Of That Limit.
+Tʜᴇʀᴇ Is Nᴏᴛʜɪɴɢ Tᴏ Kɴᴏᴡ Mᴏʀᴇ. Sᴇɴᴅ Mᴇ Tʜᴇ Lɪᴍɪᴛ Oғ Yᴏᴜʀ Pᴀssᴡᴏʀᴅ.
+- I Wɪʟʟ Gɪᴠᴇ Tʜᴇ Pᴀssᴡᴏʀᴅ Oғ Tʜᴀᴛ Lɪᴍɪᴛ.
+
 
 <b>Commands and Usage:</b>
 • /genpassword or /genpw <code>20</code>
 
 <b>NOTE:</b>
-• Only Digits Are Allowed
-• Maximum Allowed Digits Till 84 
-(I Can't Generate Passwords Above The Length 84)
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Oɴʟʏ Dɪɢɪᴛs Aʀᴇ Aʟʟᴏᴡᴇᴅ
+• Mᴀxɪᴍᴜᴍ Aʟʟᴏᴡᴇᴅ Dɪɢɪᴛs Tɪʟʟ 84 
+(I Cᴀɴ'ᴛ Gᴇɴᴇʀᴀᴛᴇ Pᴀssᴡᴏʀᴅs Aʙᴏᴠᴇ Tʜᴇ Lᴇɴɢᴛʜ 84)
+• IMDʙ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
@@ -310,11 +311,11 @@ Name - {}"""
 <b>Kick incative members from group. Add me as admin with ban users permission in group.</b>
 
 <b>Commands and Usage:</b>
-• /inkick - command with required arguments and i will kick members from group.
-• /instatus - to check current status of chat member from group.
-• /inkick within_month long_time_ago - to kick users who are offline for more than 6-7 days.
-• /inkick long_time_ago - to kick members who are offline for more than a month and Deleted Accounts.
-• /dkick - to kick deleted accounts."""
+• /inkick - ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ʀᴇϙᴜɪʀᴇᴅ ᴀʀɢᴜᴍᴇɴᴛs ᴀɴᴅ ɪ ᴡɪʟʟ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ɢʀᴏᴜᴘ.
+• /instatus - ᴛᴏ ᴄʜᴇᴄᴋ ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛᴜs ᴏғ ᴄʜᴀᴛ ᴍᴇᴍʙᴇʀ ғʀᴏᴍ ɢʀᴏᴜᴘ
+• /inkick ᴡɪᴛʜɪɴ_ᴍᴏɴᴛʜ ʟᴏɴɢ_ᴛɪᴍᴇ_ᴀɢᴏ - ᴛᴏ ᴋɪᴄᴋ ᴜsᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏғғʟɪɴᴇ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ 6-7 ᴅᴀʏs.
+• /inkick ʟᴏɴɢ_ᴛɪᴍᴇ_ᴀɢᴏ - ᴛᴏ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏғғʟɪɴᴇ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ ᴀ ᴍᴏɴᴛʜ ᴀɴᴅ Dᴇʟᴇᴛᴇᴅ Aᴄᴄᴏᴜɴᴛs.
+• /dkick - to ᴋɪᴄᴋ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs."""
 
     CREATOR_REQUIRED = """❗You have to be the group creator to do that."""
       
