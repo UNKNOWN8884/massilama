@@ -18,8 +18,7 @@ class Script(object):
 ➥ Build Status: v68.0.1 [ Beta ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ CᴏᴘʏCᴀᴛs.
-
+Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ CᴏᴘʏCᴀᴛs."""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
