@@ -174,23 +174,24 @@ This module allows you to do that easily, by exposing some common actions, so ev
 • These commands works on group.
 • These commands can be used by Only admin."""
 
-    PIN_MESSAGE_TXT = """Help: <b>Pin Message</b>
+    PIN_MESSAGE_TXT = """Help: <b>Pɪɴ Mᴇssᴀɢᴇ</b>
 
-All the pin related commands can be found here; keep your chat up to date on the latest news with a simple pinned message!
+Aʟʟ ᴛʜᴇ ᴘɪɴ ʀᴇʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ғᴏᴜɴᴅ ʜᴇʀᴇ; ᴋᴇᴇᴘ ʏᴏᴜʀ ᴄʜᴀᴛ ᴜᴘ ᴛᴏ ᴅᴀᴛᴇ ᴏɴ ᴛʜᴇ ʟᴀᴛᴇsᴛ ɴᴇᴡs ᴡɪᴛʜ ᴀ sɪᴍᴘʟᴇ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ!
 
-<b>Commands and Usage:</b>
-• /pin: Pin the message you replied to. Add 'loud' or 'notify' to send a notification to group members.
-• /unpin: Unpin the current pinned message. If used as a reply, unpins the replied to message.
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
+• /pin:  Pɪɴ ᴛʜᴇ ᴍᴇssᴀɢᴇ ʏᴏᴜ ʀᴇᴘʟɪᴇᴅ ᴛᴏ. Aᴅᴅ 'ʟᴏᴜᴅ' ᴏʀ 'ɴᴏᴛɪғʏ' ᴛᴏ sᴇɴᴅ ᴀ ɴᴏᴛɪғɪᴄᴀᴛɪᴏɴ ᴛᴏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs.
+• /unpin: Uɴᴘɪɴ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ. Iғ ᴜsᴇᴅ ᴀs ᴀ ʀᴇᴘʟʏ, ᴜɴᴘɪɴs ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ.
 
-<b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works only group.
-• These commands can be used by Only admin."""
-
-    ADMIN_TXT = """Help: <b>Admin Mods</b>
 
 <b>NOTE:</b>
-This module only works for my admins
+• IMDʙ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴʟʏ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ Oɴʟʏ ᴀᴅᴍɪɴ."""
+
+    ADMIN_TXT = """Help: <b>Aᴅᴍɪɴ Mᴏᴅs</b>
+
+<b>NOTE:</b>
+Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 
 <b>Commands and Usage:</b>
 • /logs - to get the rescent errors.
@@ -205,11 +206,11 @@ This module only works for my admins
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """<b>Total Files:</b> <code>{}</code>
-<b>Total Users:</b> <code>{}</code>
-<b>Total Chats:</b> <code>{}</code>
-<b>Used Storage:</b> <code>{}</code> MiB
-<b>Free Storage:</b> <code>{}</code> MiB"""
+    STATUS_TXT = """🗂️Total Files: <code>{}</code>
+👥Total Users: <code>{}</code>
+💖Total Chats: <code>{}</code>
+⛽Used Storage:</b> <code>{}</code> MiB
+🛢️Free Storage:</b> <code>{}</code> MiB"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
@@ -217,56 +218,57 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
-    MEMES_TXT = """Help: <b>Memes</b>
+    MEMES_TXT = """Help: <b>Fᴜɴ</b>
 
-Some dank memes for fun or whatever!
+ʜᴇʀᴇ sᴏᴍᴇ ғᴜɴs ᴀʀᴇ ᴛʜᴇʀᴇ ᴛʀʏ ᴏᴜᴛ ɴᴏᴡ
 
-<b>Commands and Usage:</b>
-• /throw or /dart - t𝗈 m𝖺𝗄𝖾 drat 
-• /roll or /dice - roll the dice 
-• /goal or /shoot - to make a goal or shoot
-• /luck or /cownd - Spin the Lucky
-• /runs strings
+<b>ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴜsᴀɢᴇ:</b>
+• /throw or /dart - ᴛ𝗈 ᴍ𝖺𝗄𝖾 ᴅʀᴀᴛ 
+• /roll or /dice -  ʀᴏʟʟ ᴛʜᴇ ᴅɪᴄᴇ
+• /goal or /shoot - ᴛᴏ ᴍᴀᴋᴇ ᴀ ɢᴏᴀʟ ᴏʀ sʜᴏᴏᴛ
+• /luck or /cownd - sᴘɪɴ ᴛʜᴇ ʟᴜᴄᴋʏ
+• /runs sᴛʀɪɴɢs
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• IMDʙ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
-    URL_SHORTNER_TXT = """Help: <b>URL Shortner</b>
+    URL_SHORTNER_TXT = """Help: <b>Uʀʟ Sʜᴏʀᴛɴᴇʀ</b>
 
-Some URLs is Shortner
+Sᴏᴍᴇ URLs ɪs Sʜᴏʀᴛɴᴇʀ
 
-<b>Commands and Usage:</b>
-• /short <code>(link)</code> - I will send the shorted links.
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
+• /short <code>(link)</code> - I ᴡɪʟʟ sᴇɴᴅ ᴛʜᴇ sʜᴏʀᴛᴇᴅ ʟɪɴᴋs.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/mksupport1</code>
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
-    TTS_TXT = """Help: <b>Text to Speech</b>
+    TTS_TXT = """Help: <b>Tᴇxᴛ Tᴏ sᴘᴇᴇᴄʜ</b>
 
-A module to convert text to voice with language support.
+ᴀ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ.
 
-<b>Commands and Usage:</b>
-• /tts - Reply to any text message with language code to convert as audio.
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢe:</b>
+• /tts - Rᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴛᴇxᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴀs ᴀᴜᴅɪᴏ.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
-    MUSIC_TXT = """Help: <b>Music</b>
 
-Music download modules, for those who love music.
+    MUSIC_TXT = """Help: <b>Mᴜsɪᴄ</b>
+
+Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜsɪᴄ.
 
 <b>Commands and Usage:</b>
-• /song or /mp3 (songname) - download song from yt servers.
-• /video or /mp4 (songname) - download video from yt servers.
+• /song or /mp3 (songname) - ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢ ғʀᴏᴍ ʏᴛ sᴇʀᴠᴇʀs.
+• /video or /mp4 (songname) - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ғʀᴏᴍ ʏᴛ sᴇʀᴠᴇʀs.
 
 <b>YouTube Thumbnail Download</b>
 • /ytthumb (youtube link)
