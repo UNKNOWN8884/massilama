@@ -1,165 +1,157 @@
 class Script(object):
-    START_TXT = """Hello {},
+    START_TXT = """Hᴇʟʟᴏ {},
 
-My name is <a href=https://t.me/{}>{}</a>!
+ Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
-
-Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
+<b>😀Hɪ Dᴜᴅᴇ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ. I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs ᴀɴᴅ Mᴏʀᴇ Iɴғᴏ Cʟɪᴄᴋ Mᴇ Tʜᴇ Hᴇʟᴘ 💖</b>"""
 
     HELP_TXT = """Hey {}
 
-<b>Here Is The Help For My Commands.</b>"""
+<b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: Zaute Km
-➥ Library: Pyrogram
-➥ Language: Python 𝟹
-➥ Data Base: MongoDB
-➥ Bot Server: Railway/Heroku
-➥ Build Status: v1.0.1 [ Beta ]"""
+    ABOUT_TXT = """<b>➥Mʏ ɴᴀᴍᴇ: {}
+➥ Cʀᴇᴀᴛᴏʀ: Cʀᴀᴄᴋᴇʀ
+➥  Hᴇʟᴘᴇʀ :MᴀxxRɪᴅᴇʀ 
+➥ Language: Eɴɢʟɪsʜ
+➥ Data Base: Pʀɪᴠᴀᴛᴇ
+➥ Bot Server: Pʀɪᴠᴀᴛᴇ
+➥ Build Status: v68.0.1 [ Beta ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
+Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ CᴏᴘʏCᴀᴛs.
 
-<b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
-
-<b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and Dingdi will respond whenever a keyword is found the message
+- Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ Cʀᴀᴄᴋᴇʀ  ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
 
 <b>NOTE:</b>
-1. IMDb should have admin privillage.
-2. Only admins can add filters in a chat.
-3. Alert buttons have a limit of 64 characters.
+1. Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+2. Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ.
+3. Aʟᴇʀᴛ ʙᴜᴛᴛᴏɴs ʜᴀᴠᴇ ᴀ ʟɪᴍɪᴛ ᴏғ 64 ᴄʜᴀʀᴀᴄᴛᴇʀs.
 
 <b>Commands and Usage:</b>
-• /filter - add a filter in chat.
-• /filters - list all the filters of a chat.
-• /del - delete a specific filter in chat.
-• /delall - delete the whole filters in a chat (chat owner only)."""
+• /filter - ᴀᴅᴅ ᴀ ғɪʟᴛᴇʀ ɪɴ ᴄʜᴀᴛ.
+• /filters - ʟɪsᴛ ᴀʟʟ ᴛʜᴇ ғɪʟᴛᴇʀs ᴏғ ᴀ ᴄʜᴀᴛ.
+• /del - ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ғɪʟᴛᴇʀ ɪɴ ᴄʜᴀᴛ.
+• /delall - ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)."""
 
-    BUTTON_TXT = """Help: <b>Buttons</b>
 
-- tgmoviebot support both url and alert inline buttons.
+    BUTTON_TXT = """Help: <b>Bᴜᴛᴛᴏɴs</b>
 
-<b>NOTE:</b>
-1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. IMDb supports buttons with any telegram media type.
-3. Buttons should be properly parsed as markdown format.
+- Mᴋ sᴜᴘᴘᴏʀᴛ ʙᴏᴛʜ ᴜʀʟ ᴀɴᴅ ᴀʟᴇʀᴛ ɪɴʟɪɴᴇ ʙᴜᴛᴛᴏɴs.
 
-<b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+Nᴏᴛᴇ
+Tᴇʟᴇɢʀᴀᴍ ᴡɪʟʟ ɴᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇɴᴅ ʙᴜᴛᴛᴏɴs ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴄᴏɴᴛᴇɴᴛ, sᴏ ᴄᴏɴᴛᴇɴᴛ ɪs ᴍᴀɴᴅᴀᴛᴏʀʏ.
+2. Mᴋ  sᴜᴘᴘᴏʀᴛs ʙᴜᴛᴛᴏɴs ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
+3. Bᴜᴛᴛᴏɴs sʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀsᴇᴅ ᴀs ᴍᴀʀᴋᴅᴏᴡɴ ғᴏʀᴍᴀᴛ."""
 
-<b>Alert buttons:</b>
-<code>[Button Text](buttonalert:This is an alert message)</code>"""
-
-    AUTOFILTER_TXT = """Help: <b>Auto Filter</b>
+    AUTOFILTER_TXT = """Help: <b>Aᴜᴛᴏ Fɪʟᴛᴇʀs</b>
 
 <b>NOTE:</b>
-1. Make me the admin of your channel if it's private.
-2. Make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
- I'll add all the files in that channel to my db."""
+1. Mᴀᴋᴇ ᴍᴇ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪғ ɪᴛ's ᴘʀɪᴠᴀᴛᴇ.
+2. Mᴀᴋᴇ sᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ᴅᴏᴇs ɴᴏᴛ ᴄᴏɴᴛᴀɪɴs ᴄᴀᴍʀɪᴘs, ᴘᴏʀɴ ᴀɴᴅ ғᴀᴋᴇ ғɪʟᴇs.
+3. Fᴏʀᴡᴀʀᴅ ᴛʜᴇ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴇ ᴡɪᴛʜ ϙᴜᴏᴛᴇs.
+ I'ʟʟ ᴀᴅᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴍʏ ᴅʙ."""
 
-    CONNECTION_TXT = """Help: <b>Connections</b>
+    CONNECTION_TXT = """Help: <b>Cᴏɴɴᴇᴄᴛɪᴏɴ</b>
 
-- Used to connect bot to PM for managing filters 
-- It helps to avoid spamming in groups.
+- Usᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ PM ғᴏʀ ᴍᴀɴᴀɢɪɴɢ ғɪʟᴛᴇʀs 
+- Iᴛ ʜᴇʟᴘs ᴛᴏ ᴀᴠᴏɪᴅ sᴘᴀᴍᴍɪɴɢ ɪɴ ɢʀᴏᴜᴘs.
 
 <b>NOTE:</b>
-1. Only admins can add a connection.
-2. Send <code>/connect</code> for connecting me to ur PM
+1. Oɴʟʏ ᴀᴅᴍɪɴs ᴄᴀɴ ᴀᴅᴅ ᴀ ᴄᴏɴɴᴇᴄᴛɪᴏɴ.
+2. Sᴇɴᴅ <ᴄᴏᴅᴇ>/ᴄᴏɴɴᴇᴄᴛ</ᴄᴏᴅᴇ> ғᴏʀ ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴍᴇ ᴛᴏ Oᴜʀ Pᴍ.
 
 <b>Commands and Usage:</b>
-• /connect  - connect a particular chat to your PM.
-• /disconnect  - disconnect from a chat.
-• /connections - list all your connections."""
+• /connect  - ᴄᴏɴɴᴇᴄᴛ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴄʜᴀᴛ ᴛᴏ ʏᴏᴜʀ PM.
+• /disconnect  - ᴅɪsᴄᴏɴɴᴇᴄᴛ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ.
+• /connections - ʟɪsᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴs."""
 
-    AUTO_MANUAL_TXT = """Help: <b>Filters</b>
+    AUTO_MANUAL_TXT = """Help: <b>Fɪʟᴛᴇʀs</b> 
 
-<b>Select a filters type Below:</b>"""
 
-    PASTE_TXT = """Help: <b>Paste</b>
+<b>Sᴇʟᴇᴄᴛ ᴀ ғɪʟᴛᴇʀs ᴛʏᴘᴇ Bᴇʟᴏᴡ:</b>"""
 
-Paste some texts or documents on a website!
+    PASTE_TXT = """Help: <b>Pᴀsᴛᴇ</b>
 
-<b>Commands and Usage:</b>
-• /paste [text] - paste the given text on Pasty
-• /paste [reply] - paste the replied text on Pasty
-
-<b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
-
-    TGRAPH_TXT = """Help: <b>TGraph & Paste</b>
-
-Do as you wish with telegra.ph module!
+Pᴀsᴛᴇ sᴏᴍᴇ ᴛᴇxᴛs ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛs ᴏɴ ᴀ ᴡᴇʙsɪᴛᴇ!
 
 <b>Commands and Usage:</b>
-• /tgmedia or /tgraph - upload supported media (within 5MB) to telegraph.
+• /paste [text] - ᴘᴀsᴛᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴏɴ Pᴀsᴛʏ
+• /paste [reply] - ᴘᴀsᴛᴇ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴇxᴛ ᴏɴ Pᴀsᴛʏ
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
-    INFO_TXT = """Help: <b>Information</b>
+    TGRAPH_TXT = """Help: <b>Tɢʀᴀᴘʜ + Pᴀsᴛᴇ</b>
 
-Get information about something!
+Dᴏ ᴀs ʏᴏᴜ ᴡɪsʜ ᴡɪᴛʜ ᴛᴇʟᴇɢʀᴀ.ᴘʜ ᴍᴏᴅᴜʟᴇ!
+
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
+• /tgmedia or /tgraph - ᴜᴘʟᴏᴀᴅ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴇᴅɪᴀ (ᴡɪᴛʜɪɴ 5MB) ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ.
+
+
+<b>NOTE:</b>
+• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
+
+    INFO_TXT = """Help: <b>Iɴғᴏʀᴍᴀᴛɪᴏɴ</b>
+
+Gᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴏᴍᴇᴛʜɪɴɢ ! 
 
 <b>Commands and Usage:</b>
-• /id - get id of a specified user.
-• /info  - get information about a user.
-• /json - get the json details of a message.
+• /id - ɢᴇᴛ ɪᴅ ᴏғ ᴀ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀ.
+• /info  - ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
+• /json - ɢᴇᴛ ᴛʜᴇ ᴊsᴏɴ ᴅᴇᴛᴀɪʟs ᴏғ ᴀ ᴍᴇssᴀɢᴇ.
+
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• These commands can be used by any group member."""
+• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴀɴʏ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀ."""
 
-    GTRANS_TXT = """Help: <b>Google Translator</b>
+    GTRANS_TXT = """Help: <b>Gᴏᴏɢʟᴇ Tʀᴀɴsʟᴀᴛᴏʀ</b>
 
-Translate texts to a specific language!
+Tʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ!
 
-<b>Commands and Usage:</b>
-• /tr [language code][reply] - translate replied message to specific language.
-
-<b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on both pm and group.
-• IMDb can translate texts to 200+ languages."""
-
-    SEARCH_TXT = """Help: <b>IMDb</b>
-
-Search many things without leaving telegram!
-
-<b>Commands and Usage:</b>
-• /imdb  - get the film information from IMDb source.
-• /search  - get the film information from various sources.
+<b>Cᴏᴍᴍᴀɴᴅs ᴀɴᴅ Usᴀɢᴇ:</b>
+• /tr [language code][reply] - ᴛʀᴀɴsʟᴀᴛᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ.
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• More search tools can be found on inline.
-• Those commands works on both pm and group."""
+• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ.
+• ʟɪʟʟʏ ᴄᴀɴ ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ 200+ ʟᴀɴɢᴜᴀɢᴇs."""
 
-    PURGE_TXT = """Help: <b>Purge</b>
 
-Need to delete lots of messages? That's what purges are for!
+    SEARCH_TXT = """Help: <b>Iᴍᴅʙ</b>
 
-<b>Commands and Usage:</b>
-• /purge - delete all messages from the replied to message, to the current message.
+Sᴇᴀʀᴄʜ ᴍᴀɴʏ ᴛʜɪɴɢs ᴡɪᴛʜᴏᴜᴛ ʟᴇᴀᴠɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ!
+
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
+• /imdb  - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ IMDʙ sᴏᴜʀᴄᴇ
+• /search  - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ғʀᴏᴍ ᴠᴀʀɪᴏᴜs sᴏᴜʀᴄᴇs.
+
 
 <b>NOTE:</b>
-• IMDb should have admin privillage.
-• These commands works on group.
-• These commands can be used by Only admin."""
+• Cʀᴀᴄᴋᴇʀ  sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Mᴏʀᴇ sᴇᴀʀᴄʜ ᴛᴏᴏʟs ᴄᴀɴ ʙᴇ ғᴏᴜɴᴅ ᴏɴ ɪɴʟɪɴᴇ.
+• Tʜᴏsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ʙᴏᴛʜ ᴘᴍ ᴀɴᴅ ɢʀᴏᴜᴘ."""
+
+    PURGE_TXT = """Help: <b>Pᴜʀɢᴇ</b>
+
+Nᴇᴇᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʟᴏᴛs ᴏғ ᴍᴇssᴀɢᴇs? Tʜᴀᴛ's ᴡʜᴀᴛ ᴘᴜʀɢᴇs ᴀʀᴇ ғᴏʀ!
+
+<b>Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:</b>
+• /purge - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ғʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ  Cᴜʀʀᴇɴᴛ Mᴇssᴀɢᴇ.
+
+<b>NOTE:</b>
+• Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡᴏʀᴋs ᴏɴ ɢʀᴏᴜᴘ.
+• Tʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ Oɴʟʏ ᴀᴅᴍɪɴ."""
 
     RESTRIC_TXT = """Help: <b>Restrictions</b>
 
