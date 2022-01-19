@@ -11,7 +11,7 @@ class Script(object):
 
     ABOUT_TXT = """<b>➥Mʏ ɴᴀᴍᴇ: {}
 ➥ Cʀᴇᴀᴛᴏʀ: Cʀᴀᴄᴋᴇʀ
-➥  Hᴇʟᴘᴇʀ :MᴀxxRɪᴅᴇʀ 
+➥  Hᴇʟᴘᴇʀ :NO😢 ONE
 ➥ Language: Eɴɢʟɪsʜ
 ➥ Data Base: Pʀɪᴠᴀᴛᴇ
 ➥ Bot Server: Pʀɪᴠᴀᴛᴇ
@@ -273,6 +273,17 @@ Mᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅ ᴍᴏᴅᴜʟᴇs, ғᴏʀ ᴛʜᴏsᴇ ᴡʜ
 <b>YouTube Thumbnail Download</b>
 • /ytthumb (youtube link)
 <b>Example:</b> <code>/ytthumb https://youtu.be/h6PtzFYaMxQ</code>
+
+<b>Iғ Cᴀɴ Pʟᴀʏ Tʜᴇ Sᴏɴɢ Oɴ Vɪᴅᴇᴏ Cʜᴀᴛ Oɴ Gʀᴏᴜᴘ</b>
+🎶Oʜ -Yᴇs Aᴠᴀɪʟᴀʙʟᴇ Yᴏᴜ Mᴜsᴛ Aᴅᴅ Aᴅᴍɪɴ Mʏ Assɪsᴛᴀɴᴛ:@SingerChat]
+🎶/Play - Tᴏ Pʟᴀʏ Tʜᴇ Sᴏɴɢ
+🎶/vplay-Tᴏ Pʟᴀʏ Tʜᴇ Vɪᴅᴇᴏ Sᴏɴɢ
+🎶/Playlist- ᴛᴏ Sᴇᴇ Wʜᴀᴛ Sᴏɴɢ Tʜᴇʀᴇ
+🎶ʜᴏᴡ ᴛᴏ ᴘʟᴀʏ ᴛʜᴇ sᴏɴɢ
+🎶/ᴘʟᴀʏ [sᴏɴɢ ɴᴀᴍᴇ]
+🎶/ᴠᴘʟᴀʏ [sᴏɴɢ ɴᴇᴍᴇ]
+ᴇx:
+/ᴘʟᴀʏ ʀᴀᴋɪᴛᴀ ʀᴀᴋɪᴛᴀ
 
 <b>NOTE:</b>
 •Cʀᴀᴄᴋᴇʀ sʜᴏᴜʟᴅ ʜᴀᴠᴇ ᴀᴅᴍɪɴ ᴘʀɪᴠɪʟʟᴀɢᴇ.
