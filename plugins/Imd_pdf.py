@@ -2,14 +2,12 @@ from io import BytesIO
 from os import path, remove
 from time import time
 
-import img2pdf
-from PIL import Image
 from pyrogram import filters
 from pyrogram.types import Message
 
-from MashaRoBot import pbot as app
-from MashaRoBot.utils.errors import capture_err
-from MashaRoBot.utils.sections import section
+from plugins import pbot as app
+from plugins.utils.errors import capture_err
+from plugins.utils.sections import section
 
 
 async def convert(
