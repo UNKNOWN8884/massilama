@@ -34,7 +34,6 @@ async def _(event):
     await event.reply(curr_string)
 
 
-dictionary = PyDictionary()
 
 
 @register(pattern="^/define")
