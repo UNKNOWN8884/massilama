@@ -9,7 +9,7 @@ API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
 URL = "http://services.gingersoftware.com/Ginger/correct/json/GingerTheText"
 
 
-@register(pattern="^/spell(?: |$)(.*)")
+
 async def _(event):
     ctext = await event.get_reply_message()
     msg = ctext.text
