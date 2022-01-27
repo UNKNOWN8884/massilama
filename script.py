@@ -206,7 +206,7 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """🗂️Total Files: <code>{}</code>
+    STATUS_TXT = """🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: <code>{}</code>
 👥Total Users: <code>{}</code>
 💖Total Chats: <code>{}</code>
 ⛽Used Storage:</b> <code>{}</code> MiB
