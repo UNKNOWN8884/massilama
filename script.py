@@ -320,8 +320,8 @@ MAXXS_TEST= """<b>Hᴇʟᴘ</b>
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
-Added By - {}
-"""
+Added By - {}"""
+
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
