@@ -314,7 +314,8 @@ MAXXS_TEST= """<b>Hᴇʟᴘ</b>
 <b>Cᴏᴍᴍᴀɴᴅ</b>
 /Covid [Cᴏᴜɴᴛʀʏ ɴᴀᴍᴇ]
 ᴇx:
-/Covid china"""
+/Covid china
+"""
 
 
     LOG_TEXT_G = """#NewGroup
