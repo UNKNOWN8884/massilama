@@ -317,7 +317,6 @@ MAXXS_TEST= """<b>Hᴇʟᴘ</b>
 /Covid china
 """
 
-
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
