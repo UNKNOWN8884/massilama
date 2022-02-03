@@ -1,16 +1,16 @@
-from MashaRoBot import telethn as tbot
+from MashaRoBot import pyrogram as tbot
 import json
 import requests
 from MashaRoBot.events import register
-from telethon import *
-from telethon.tl import functions
+from pyrogram import *
+from pyrogram.tl import functions
 import os
 import urllib.request
 from typing import List
 from typing import Optional
 from PyDictionary import PyDictionary
-from telethon.tl import types
-from telethon.tl.types import *
+from pyrogram.tl import types
+from pyrogram.tl.types import *
 
 
 API_KEY = "6ae0c3a0-afdc-4532-a810-82ded0054236"
