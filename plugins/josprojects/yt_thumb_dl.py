@@ -40,7 +40,7 @@ async def send_thumbnail(bot, update):
         )
         await update.reply_photo(
             photo=thumbnail,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('join projects channel', url='https://telegram.me/josprojects')]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(' Eᴀsʏʏʏʏ Jᴜsᴛ Jᴏɪɴ Mʏ Cʜᴀɴɴᴇʟ Aɴᴅ Yᴏᴜ Cᴀɴ Gᴇᴛ', url='https://telegram.me/Mksupport1')]]),
             quote=True
         )
         await message.delete()
