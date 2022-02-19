@@ -522,6 +522,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+        elif query.data == "N-Mᴏᴅᴇ":
+        buttons = [[
+            InlineKeyboardButton('', callback_data='Magan')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.MAGAN_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "autofilter":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='auto_manual')
