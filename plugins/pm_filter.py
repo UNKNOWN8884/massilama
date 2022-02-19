@@ -524,7 +524,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         elif query.data == "Magan":
         buttons = [[
-            InlineKeyboardButton('N-Mᴏᴅᴇ',callback_data='Magan')
+            InlineKeyboardButton('Back',callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
