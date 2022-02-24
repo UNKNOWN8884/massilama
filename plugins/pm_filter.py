@@ -461,6 +461,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('N-Mᴏᴅᴇ', callback_data='Magan'),
             InlineKeyboardButton('Gᴀᴍᴇs', callback_data='games'),     
             ],[
+            InlineKeyboardButton('Unknown', callback_data='unk'),
+            ],[
             InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Uʀʟ Sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
             InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
@@ -485,6 +487,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.ABOUT_TXT.format(temp.B_NAME),
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "unk":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='about')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.UNK_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
