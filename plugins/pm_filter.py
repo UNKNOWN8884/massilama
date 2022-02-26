@@ -509,6 +509,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('гยlєร',  callback_data='rules'),
             InlineKeyboardButton('๒คςкยק', callback_data='backup'),
             InlineKeyboardButton('๓ﻮเς tєรt', callback_data='skyler'),
+            ],[
+            InlineKeyboardButton('คภเ๓є', callback_data='anime'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -535,6 +537,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.BACKUP_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "anime":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.ANIME_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
