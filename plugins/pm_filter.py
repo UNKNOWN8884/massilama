@@ -511,10 +511,160 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('คภเ๓є', callback_data='anime'),
             InlineKeyboardButton('๓คtђร', callback_data='maths'),
+            InlineKeyboardButton('гєคςt', callback_data='react'),
+            ],[
+            InlineKeyboardButton('๓คгк๔๏ภђєlק', callback_data='mark'),
+            InlineKeyboardButton('ฬเкเקє๔เค', callback_data='wiki'),
+            InlineKeyboardButton('ฬคllקคєקг', callback_data='wall'), 
+            ],[
+            InlineKeyboardButton('lเtєŦยภ', callback_data='list'),
+            InlineKeyboardButton('ρเɳɠ', callback_data='ping'), 
+            InlineKeyboardButton('gяουρ ιƒο', callback_data='grpinfo'),
+            ],[
+            InlineKeyboardButton('gяρ ϲοиτяℓѕ', callback_data='control'),
+            InlineKeyboardButton('รρεε∂', callback_data='speed'),
+            InlineKeyboardButton('ɾҽตօԵ ցɾթ', callback_data='REMOTE'),
+            ],[
+            InlineKeyboardButton('gєя ϐαиѕ', callback_data='GBAN'),
+            InlineKeyboardButton('ɠℓσɓℓ ɓℓµε ƭεאƭ', callback_data='GBLUE'),
+            ],[
+            InlineKeyboardButton('Ꮐϴ ᏴᎪᏟᏦ', callback_data='help'),                            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEWDATA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "gblue":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.GBAN_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "gban":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.GBLUE_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "remote":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.REMOTE_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "speed":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.SPEED_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "control":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.CONTROL_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "grpinfo":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.GRPINFO_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "ping":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.PING_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "list":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.LIST_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "wall":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.WALL_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "wiki":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.WIKI_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "mark":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.MARK_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "react":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.REACT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -541,17 +691,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "backup":
-        buttons = [[
-            InlineKeyboardButton('« Back', callback_data='newdata')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=Script.BACKUP_TXT,
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
+    
     elif query.data == "anime":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='newdata')
