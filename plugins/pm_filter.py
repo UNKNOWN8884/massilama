@@ -1,4 +1,4 @@
-#Kanged From @TroJanZheX
+#Kanged From @DOCTOR ON TG
 import asyncio
 import re
 import ast
@@ -506,7 +506,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "newdata":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='help')
-            InlineKeyboardButton('гยlєร', callback_data='rules')
+            InlineKeyboardButton('гยlєร', callback_data='rules'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
