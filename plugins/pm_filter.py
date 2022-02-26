@@ -543,7 +543,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.GBAN_TXT,
+            text=Script.GLUE_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
@@ -554,7 +554,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.GBLUE_TXT,
+            text=Script.GBAN_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
