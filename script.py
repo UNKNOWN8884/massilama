@@ -127,10 +127,9 @@ sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,
 vi,xh,yi,yo,zh,zh_CN,zh_TW,zu`
 "
     NSFW_TXT = """
-lILILY ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ NSFW sᴇɴᴅᴇʀs
+ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ғʀᴏᴍ NSFW sᴇɴᴅᴇʀs
  ❍ /addnsfw*:* Aᴅᴅs Tʜᴇ Gʀᴏᴜᴘ ᴛᴏ ɴsғᴡ Wᴀᴛᴄʜ Lɪsᴛ
- ❍ /rmnsfw*:* Rᴇᴍᴏᴠᴇs Tʜᴇ Gʀᴏᴜᴘ Fʀᴏᴍ ɴsғᴡ Wᴀᴛᴄʜ Lɪsᴛ
-"""
+ ❍ /rmnsfw*:* Rᴇᴍᴏᴠᴇs Tʜᴇ Gʀᴏᴜᴘ Fʀᴏᴍ ɴsғᴡ Wᴀᴛᴄʜ Lɪsᴛ"""
 
     ENG_TXT = """
 ❍ /define <text>*:* Tʏᴘᴇ ᴛʜᴇ ᴡᴏʀᴅ ᴏʀ ᴇxᴘʀᴇssɪᴏɴ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ\ɴFᴏʀ ᴇxᴀᴍᴘʟᴇ /define ᴋɪʟʟ
