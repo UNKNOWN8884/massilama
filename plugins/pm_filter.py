@@ -462,11 +462,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Gᴀᴍᴇs', callback_data='games'),     
             ],[
             InlineKeyboardButton('Mᴜᴛᴇ', callback_data='unk'),
-            ],[
-            InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Uʀʟ Sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
+            ],[
+            InlineKeyboardButton('ᏴᎪᏟᏦ', callback_data='start'), 
             InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
-            InlineKeyboardButton('Next', callback_data='newdata'),
+            InlineKeyboardButton('ΝᎬՏͲ', callback_data='newdata'),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
