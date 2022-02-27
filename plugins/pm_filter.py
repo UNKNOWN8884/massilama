@@ -541,24 +541,24 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "nest":
         buttons = [[
         InlineKeyboardButton('❡០០❡ɭ៩', callback_data='gog'), 
-        InlineKeyboardButton('៩⩎❡ɭɨនϦ', callback_data='eng'),
+        InlineKeyboardButton('៩⩎❡ɭɨនϦ'', callback_data='eng'),
         ],[
-        InlineKeyboardButton('❡Ʀᖰ Ɯ♬Ƭ¢Ϧ៩Ʀ, callback_data='nsfw'),
-        InlineKeyboardButton('Ƭ៩នƬ ƬƦ♬⩎នɭ♬Ƭ, callback_data='sptp'),
+        InlineKeyboardButton('❡Ʀᖰ Ɯ♬Ƭ¢Ϧ៩Ʀ', callback_data='nsfw'),
+        InlineKeyboardButton('Ƭ៩នƬ ƬƦ♬⩎នɭ♬Ƭ', callback_data='sptp'),
         ],[
-        InlineKeyboardButton('⨏០Ʀ¢ ន⩏ᖲ¢ɨƦᖲ, callback_data='fsub'), 
-        InlineKeyboardButton('ᖲ❡ɨƬϦ⩏ᖲ, callback_data='gth'), 
+        InlineKeyboardButton('⨏០Ʀ¢ ន⩏ᖲ¢ɨƦᖲ', callback_data='fsub'), 
+        InlineKeyboardButton('ᖲ❡ɨƬϦ⩏ᖲ', callback_data='gth'), 
         ],[
-        InlineKeyboardButton('❡Ʀᖰ ន៩ƬƬɨ⩎❡, callback_data='ad'), 
-        InlineKeyboardButton('⨏ɭ០០ᖱ, callback_data='flood'),
+        InlineKeyboardButton('❡Ʀᖰ ន៩ƬƬɨ⩎❡', callback_data='ad'), 
+        InlineKeyboardButton('⨏ɭ០០ᖱ', callback_data='flood'),
         ],[
-        InlineKeyboardButton('♬ᖰᖰ០Ʀ⩔៩, callback_data='apr'),  
-        InlineKeyboardButton('ᖱɨន♬ᖲ♬ɭ៩, callback_data='disb'),
+        InlineKeyboardButton('♬ᖰᖰ០Ʀ⩔៩', callback_data='apr'),  
+        InlineKeyboardButton('ᖱɨន♬ᖲ♬ɭ៩', callback_data='disb'),
         ],[
-        InlineKeyboardButton('នƬƴɭ៩ Ƭ៩✗Ƭ, callback_data='st'),  
-        InlineKeyboardButton('Ƭ♬❡ ♬ɭɭ, callback_data='tal'),
+        InlineKeyboardButton('នƬƴɭ៩ Ƭ៩✗Ƭ', callback_data='st'),  
+        InlineKeyboardButton('Ƭ♬❡ ♬ɭɭ', callback_data='tal'),
         ],[ 
-        InlineKeyboardButton('₲Ø Ƀ₳€Ԟ, callback_data='newdata'),                                         
+        InlineKeyboardButton('₲Ø Ƀ₳€Ԟ', callback_data='newdata'),                                         
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
