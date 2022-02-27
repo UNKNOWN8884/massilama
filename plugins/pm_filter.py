@@ -541,7 +541,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "nest":
         buttons = [[
         InlineKeyboardButton('❡០០❡ɭ៩', callback_data='gog'), 
-        InlineKeyboardButton('៩⩎❡ɭɨនϦ'', callback_data='eng'),
+        InlineKeyboardButton('៩⩎❡ɭɨនϦ', callback_data='eng'),
         ],[
         InlineKeyboardButton('❡Ʀᖰ Ɯ♬Ƭ¢Ϧ៩Ʀ', callback_data='nsfw'),
         InlineKeyboardButton('Ƭ៩នƬ ƬƦ♬⩎នɭ♬Ƭ', callback_data='sptp'),
