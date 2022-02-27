@@ -558,11 +558,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('នƬƴɭ៩ Ƭ៩✗Ƭ', callback_data='st'),  
         InlineKeyboardButton('Ƭ♬❡ ♬ɭɭ', callback_data='tal'),
         ],[ 
-        InlineKeyboardButton('₲Ø Ƀ₳€Ԟ', callback_data='newdata'),                                         
+        InlineKeyboardButton('₲Ø Ƀ₳€Ԟ', callback_data='newdata'),  
+        InlineKeyboardButton('₲Ø ₦Ɇ$₮', callback_data='next'),                                       
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEST_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "next":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.NEXT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
