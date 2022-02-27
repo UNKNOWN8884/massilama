@@ -528,11 +528,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('gєя ϐαиѕ', callback_data='gban'),
             InlineKeyboardButton('ɠℓσɓℓ ɓℓµε ƭεאƭ', callback_data='gblue'),
             ],[
-            InlineKeyboardButton('Ꮐϴ ᏴᎪᏟᏦ', callback_data='help'),                            
+            InlineKeyboardButton('Ꮐϴ ᏴᎪᏟᏦ', callback_data='help'),
+            InlineKeyboardButton('Ꮐϴ ΝᎬՏͲ', callback_data='nest'),                            
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEWDATA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "nest":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='newdata')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.NEST_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
