@@ -523,10 +523,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('gяρ ϲοиτяℓѕ', callback_data='control'),
             InlineKeyboardButton('รρεε∂', callback_data='speed'),
-            InlineKeyboardButton('ɾҽตօԵ ցɾթ', callback_data='REMOTE'),
+            InlineKeyboardButton('ɾҽตօԵ ցɾթ', callback_data='remote'),
             ],[
-            InlineKeyboardButton('gєя ϐαиѕ', callback_data='GBAN'),
-            InlineKeyboardButton('ɠℓσɓℓ ɓℓµε ƭεאƭ', callback_data='GBLUE'),
+            InlineKeyboardButton('gєя ϐαиѕ', callback_data='gban'),
+            InlineKeyboardButton('ɠℓσɓℓ ɓℓµε ƭεאƭ', callback_data='gblue'),
             ],[
             InlineKeyboardButton('Ꮐϴ ᏴᎪᏟᏦ', callback_data='help'),                            
         ]]
