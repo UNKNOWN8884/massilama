@@ -457,7 +457,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛᴛ-sᴘᴇᴄʜ', callback_data='tts'),
             InlineKeyboardButton('ᴛ-ɢʀᴀᴘʜ', callback_data='tgraph'),
             ],[
-            InlineKeyboardButton('Cᴏᴠɪᴅ', callback_data='MAXXS'),
+            InlineKeyboardButton('Cᴏᴠɪᴅ', callback_data='cov'),
             InlineKeyboardButton('N-Mᴏᴅᴇ', callback_data='Magan'),
             InlineKeyboardButton('Gᴀᴍᴇs', callback_data='games'),     
             ],[
@@ -533,6 +533,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEWDATA_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "cov":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='help')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.COV_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
