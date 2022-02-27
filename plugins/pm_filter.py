@@ -540,11 +540,161 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "nest":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='newdata')
+        InlineKeyboardButton('❡០០❡ɭ៩', callback_data='gog'), 
+        InlineKeyboardButton('៩⩎❡ɭɨនϦ', callback_data='eng'),
+        ],[
+        InlineKeyboardButton('❡Ʀᖰ Ɯ♬Ƭ¢Ϧ៩Ʀ, callback_data='nsfw'),
+        InlineKeyboardButton('Ƭ៩នƬ ƬƦ♬⩎នɭ♬Ƭ, callback_data='sptp'),
+        ],[
+        InlineKeyboardButton('⨏០Ʀ¢ ន⩏ᖲ¢ɨƦᖲ, callback_data='fsub'), 
+        InlineKeyboardButton('ᖲ❡ɨƬϦ⩏ᖲ, callback_data='gth'), 
+        ],[
+        InlineKeyboardButton('❡Ʀᖰ ន៩ƬƬɨ⩎❡, callback_data='ad'), 
+        InlineKeyboardButton('⨏ɭ០០ᖱ, callback_data='flood'),
+        ],[
+        InlineKeyboardButton('♬ᖰᖰ០Ʀ⩔៩, callback_data='apr'),  
+        InlineKeyboardButton('ᖱɨន♬ᖲ♬ɭ៩, callback_data='disb'),
+        ],[
+        InlineKeyboardButton('នƬƴɭ៩ Ƭ៩✗Ƭ, callback_data='st'),  
+        InlineKeyboardButton('Ƭ♬❡ ♬ɭɭ, callback_data='tal'),
+        ],[ 
+        InlineKeyboardButton('₲Ø Ƀ₳€Ԟ, callback_data='newdata'),                                         
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEST_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "tal":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.TAL_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "st":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.ST_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "disb":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.DISB_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "apr":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.APR_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "flood":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.FLOOD_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "ad":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.AD_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "gth":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.GTH_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "fsub":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.FSUB_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "sptp":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.SPTP_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "nsfw":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.NSFW_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "eng":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.ENG_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "gog":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.GOG_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
