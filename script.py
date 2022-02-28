@@ -128,7 +128,7 @@ Feds are now divided into 3 sections for your ease.
     INS_TXT = """
 - Reply to a text with /insult for insults.
 """
-    NEXT_TXT = """
+    NET_TXT = """
 𝖆 4𝖙𝖍 𝖒𝖔𝖉𝖚𝖑𝖊𝖘"""
     TAL_TXT = """
 - /tagall : Tᴀɢ ᴇᴠᴇʀʏᴏɴᴇ ɪɴ ᴀ ᴄʜᴀᴛ
