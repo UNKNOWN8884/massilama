@@ -21,6 +21,8 @@ class Script(object):
     SOURCE_TXT = """<b>Source:</b>
 Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ CᴏᴘʏCᴀᴛs."""
 
+    S_TXT = """5TH Modules"""
+
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
 - Fɪʟᴛᴇʀ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜsᴇʀs ᴄᴀɴ sᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇs ғᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ Cʀᴀᴄᴋᴇʀ  ᴡɪʟʟ ʀᴇsᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪs ғᴏᴜɴᴅ ᴛʜᴇ ᴍᴇssᴀɢᴇ
