@@ -424,7 +424,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᎪᏴϴႮͲ🎀', callback_data='about')
             ],[
             InlineKeyboardButton('ՏᎬᎪᎡᏟᎻ🗂️', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ 💖', url='https://t.me/mksupport1'),
+            InlineKeyboardButton('ႮᏢᎠᎪͲᎬՏ 🎐', url='https://t.me/mksupport1'),
             ],[
             InlineKeyboardButton('ᏟᏞϴՏᎬ💤', callback_data='close_data')
         ]]
