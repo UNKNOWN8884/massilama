@@ -836,11 +836,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝕱𝖊𝖉𝖗𝖆𝖙𝖎𝖔𝖓', callback_data='fed'),
             InlineKeyboardButton('𝕴𝖓𝖘𝖑𝖚𝖙𝖘', callback_data='ins'), 
             ],[
-            InlineKeyboardButton('𝙶𝚘 𝙱𝚊𝚌𝚔', callback_data='nest'), 
+            InlineKeyboardButton('𝙶𝚘 𝙱𝚊𝚌𝚔', callback_data='nest'),
+            InlineKeyboardButton('Go Nest', callback_data='s'), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEXT_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
+    elif query.data == "s":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='next')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.s_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
