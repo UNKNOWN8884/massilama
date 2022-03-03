@@ -848,7 +848,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "s":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='next')
+            InlineKeyboardButton('𝕽𝖊𝖕𝖔𝖗𝖙', callback_data='rpe'),
+            InlineKeyboardButton('𝕻𝖔𝖐𝖊𝖎𝖓𝖋𝖔', callback_data='pok'),
+            InlineKeyboardButton('𝖎𝖓𝖋𝖔𝖘', callback_data='in'),
+            ],[
+            InlineKeyboardButton('𝕾𝖙𝖎𝖈𝖐𝖊𝖗𝖘', callback_data='sti'),
+            InlineKeyboardButton('𝕱𝖊𝖉𝖗𝖆𝖙𝖎𝖔𝖓', callback_data='fed'),
+            InlineKeyboardButton('𝕴𝖓𝖘𝖑𝖚𝖙𝖘', callback_data='ins'), 
+            ],[
+            InlineKeyboardButton('𝙶𝚘 𝙱𝚊𝚌𝚔', callback_data='nest'),         
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
