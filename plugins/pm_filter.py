@@ -559,7 +559,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('Ƭ♬❡ ♬ɭɭ', callback_data='tal'),
         ],[ 
         InlineKeyboardButton('₲Ø Ƀ₳€Ԟ', callback_data='newdata'),  
-        InlineKeyboardButton('₲Ø ₦Ɇ$₮', callback_data='next'),                                       
+        InlineKeyboardButton('₲Ø ₦Ɇ$₮', callback_data='raj'),                                       
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -587,6 +587,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+   elif query.data == "raj":
+        buttons = [[
+            InlineKeyboardButton('« Back', callback_data='nest')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.RAJ_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        ) 
     elif query.data == "ins":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='next')
