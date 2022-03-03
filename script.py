@@ -4,7 +4,7 @@ class Script(object):
  Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>!
 
 <b>😀Hɪ Dᴜᴅᴇ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ. I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs ᴀɴᴅ Mᴏʀᴇ Iɴғᴏ Cʟɪᴄᴋ Mᴇ Tʜᴇ Hᴇʟᴘ 💖</b>"""
-
+    
     HELP_TXT = """Hey {}
 
 <b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -16,7 +16,8 @@ class Script(object):
 ➥ Data Base: Pʀɪᴠᴀᴛᴇ
 ➥ Bot Server: Pʀɪᴠᴀᴛᴇ
 ➥ Build Status: v68.0.1 [ Beta ]"""
-
+    RAJ_TXT = """4th MODULES
+"""
     SOURCE_TXT = """<b>Source:</b>
 Lɪʟʟʏ Pʀᴏᴊᴇᴄᴛ Is Nᴏᴛ A Oᴘᴇɴ , Bᴇᴄᴀᴜsᴇ CᴏᴘʏCᴀᴛs."""
 
