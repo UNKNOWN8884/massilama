@@ -573,7 +573,7 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /broadcast - to broadcast a message to all users."""
 
     STATUS_TXT = """🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: 898456
-👥Total users : 5400
+👥Total users : 5407
 💖Total Chats:  2700
 ⛽Used Storage:</b> 400 MIB
 🛢️Free Storage:</b> 500 MiB"""
