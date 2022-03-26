@@ -20,7 +20,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
-@@ -95,8 +99,74 @@ async def start(client, message):
+
         )
         return
     file_id = message.command[1]
