@@ -1,4 +1,3 @@
-
 import re
 from pyrogram import filters, Client
 from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid, UsernameInvalid, UsernameNotModified
@@ -110,4 +109,4 @@ async def gen_link_batch(bot, message):
     post = await bot.send_document(LOG_CHANNEL, f"batchmode_{message.from_user.id}.json", file_name="Batch.json", caption="⚠️Generated for filestore.")
     os.remove(f"batchmode_{message.from_user.id}.json")
     file_id, ref = unpack_new_file_id(post.document.file_id)
-    await sts.edit(f"Here is your link https://t.me/{temp.U_NAME}?start=BATCH-{file_id"}
+    await sts.edit(f"Here is your link https://t.me/{temp.U_NAME}?start=BATCH-{file_id}")
