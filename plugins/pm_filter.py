@@ -872,7 +872,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         
-    
+    elif query.data == "s":
+        buttons = [[
+        InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
+        InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
+        InlineKeyboardButton('ɪɴғᴏ', callback_data='in'),
+        ],[
+        InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='sti'),
+        InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
+        InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='ins'), 
+        ],[
+        InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',   callback_data='next'),
+       ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )  
           
     
     elif query.data == "ins":
