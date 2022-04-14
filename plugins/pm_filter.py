@@ -710,8 +710,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
-        )
-
+        )  
     elif query.data == "b":
         buttons = [[
             InlineKeyboardButton('ɴɪɢʜᴛᴍᴏᴅᴇ', callback_data='Magan'),
@@ -726,8 +725,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʀᴇᴀᴄᴛ', callback_data='react'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
           ]]
-          reply_markup = InlineKeyboardMarkup(buttons)
-          await query.message.edit_text(
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=Script.B_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
