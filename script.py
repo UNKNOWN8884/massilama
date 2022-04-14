@@ -5,6 +5,8 @@ class Script(object):
 
 <b>😀Hɪ Dᴜᴅᴇ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ. I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs ᴀɴᴅ Mᴏʀᴇ Iɴғᴏ Cʟɪᴄᴋ Mᴇ Tʜᴇ Hᴇʟᴘ 🎐</b>"""
     
+    A_TXT = """hey"""
+
     HELP_TXT = """Hey {}
 
 <b>Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Cᴏᴍᴍᴀɴᴅs.</b>"""
