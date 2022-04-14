@@ -682,15 +682,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴀɴɪᴍᴀᴛ', callback_data='anime'),
             InlineKeyboardButton('ᴅɪsᴀʙʟᴇ', callback_data='disb'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
-            ]]
-            reply_markup = InlineKeyboardMarkup(buttons)
+          ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.HELP_TXT,
+            text=Script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
-        )
-        
+        )  
     elif query.data == "a":
         buttons = [[
             InlineKeyboardButton('ɢaᴍᴇs', callback_data='games'), 
