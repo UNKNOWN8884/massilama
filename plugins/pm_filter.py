@@ -874,6 +874,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         
     elif query.data == "next":
         buttons = [[
+          
+    elif query.data == "s":
+        buttons = [[
             InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
             InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
             InlineKeyboardButton('ɪɴғᴏ', callback_data='in'),
@@ -882,29 +885,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
             InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='ins'), 
             ],[
-            InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕', callback_data='next'),
+            InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',   callback_data='next'),
         ]]
       reply_markup = InlineKeyboardMarkup(buttons)
       await query.message.edit_text(
-            text=Script.NEXT_TXT,
-            disable_web_page_preview=True,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
-    elif query.data == "s":
-        buttons = [[
-            InlineKeyboardButton('𝕽𝖊𝖕𝖔𝖗𝖙', callback_data='rpe'),
-            InlineKeyboardButton('𝕻𝖔𝖐𝖊𝖎𝖓𝖋𝖔', callback_data='pok'),
-            InlineKeyboardButton('𝖎𝖓𝖋𝖔𝖘', callback_data='in'),
-            ],[
-            InlineKeyboardButton('𝕾𝖙𝖎𝖈𝖐𝖊𝖗𝖘', callback_data='sti'),
-            InlineKeyboardButton('𝕱𝖊𝖉𝖗𝖆𝖙𝖎𝖔𝖓', callback_data='fed'),
-            InlineKeyboardButton('𝕴𝖓𝖘𝖑𝖚𝖙𝖘', callback_data='ins'), 
-            ],[
-            InlineKeyboardButton('𝙶𝚘 𝙱𝚊𝚌𝚔', callback_data='nest'),         
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
             text=Script.S_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
