@@ -863,7 +863,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
         InlineKeyboardButton('🄱🄰🄲🄺', callback_data='d'),
         InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
-        InlineKeyboardButton('🅽🅴🆂🆃', callback_data='next'),
+        InlineKeyboardButton('🅽🅴🆂🆃', callback_data='e'),
       ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await query.message.edit_text(
@@ -871,8 +871,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
-        ) 
-    elif query.data == "s":
+        )
+   
+   elif query.data == "e":
         buttons = [[
         InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
         InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
@@ -882,20 +883,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
         InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='ins'), 
         ],[
-        InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',   callback_data='next'),
-       ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=Script.S_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
+        InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',callback_data='nest'),
+      ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
+    await query.message.edit_text(
+            text=Script.NEST_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
-        )  
+        )
+   
+
+    
           
     
     elif query.data == "ins":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='s')
+            InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -906,7 +910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "fed":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='s')
+            InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -917,7 +921,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "sti":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='s')
+            InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -928,7 +932,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "in":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='s')
+            InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -939,7 +943,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "pok":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='s')
+            InlineKeyboardButton('« Back', callback_data='e')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
