@@ -671,31 +671,58 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-            InlineKeyboardButton('α∂ɱเɳ', callback_data='admin'),
-            InlineKeyboardButton('Cᴏɴɴᴇᴄᴛ', callback_data='coct'),
+            InlineKeyboardButton('ᴀᴅᴍɪɴ', callback_data='admin'),
+            InlineKeyboardButton('ᴀᴘᴘᴏʀᴠᴇ', callback_data='apr'), 
+            InlineKeyboardButton('ʙᴀɴ', callback_data='restric'), 
+            ],[
+            InlineKeyboardButton('ʙᴀᴄᴋᴜᴘ', callback_data='backup'),
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛ', callback_data='coct'),
+            InlineKeyboardButton('ᴄᴏᴠɪᴅ', callback_data='cov'),
+            ],[
+            InlineKeyboardButton('ᴀɴɪᴍᴀᴛ', callback_data='anime'),
+            InlineKeyboardButton('ᴅɪsᴀʙʟᴇ', callback_data='disb'),
+            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
+            ],[
+        
+    elif query.data == "a":
+        buttons = [[
+            InlineKeyboardButton('ɢaᴍᴇs', callback_data='games'), 
+            InlineKeyboardButton('Iᴍᴅʙ', callback_data='search'),  
+            InlineKeyboardButton('ʟɪᴛᴇғᴜɴs', callback_data='list'),  
+            ],[
+            InlineKeyboardButton('Mᴜᴛᴇ', callback_data='unk'),
+            InlineKeyboardButton('ᴍᴀᴛʜs', callback_data='maths'),
+            InlineKeyboardButton('ᴍᴀʀᴋᴅᴏᴡɴʜᴇʟᴘ', callback_data='mark'),
+            ],[
+            InlineKeyboardButton('🄱🄰🄲🄺', callback_data='help'),
+            InlineKeyboardButton('ᴍᴀɢɪᴄᴛᴇxᴛ', callback_data='skyler'),
+            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='mark'),
+            ],[
             InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='auto_manual'),
             ],[
             InlineKeyboardButton('Gᴛʀᴀɴs', callback_data='gtrans'),
             InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
             InlineKeyboardButton('Fᴜɴ', callback_data='memes'),
             ],[
-            InlineKeyboardButton('Pᴀsᴛᴇ', callback_data='paste'),
+            
             InlineKeyboardButton('ᴘᴀssᴡᴏʀᴅ ɢᴇɴ', callback_data='genpassword'),
-            InlineKeyboardButton('Pɪɴ', callback_data='pin'),
+            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='pin'),
             ],[
-            InlineKeyboardButton('Pᴜʀɢᴇ', callback_data='purge'),
-            InlineKeyboardButton('Bᴀɴ', callback_data='restric'),
-            InlineKeyboardButton('Iᴍᴅʙ', callback_data='search'),
+            
+            
+            
+            InlineKeyboardButton('Pᴀsᴛᴇ', callback_data='paste'),
+            InlineKeyboardButton('Pɪɴ', callback_data='pin'),
             ],[
             InlineKeyboardButton('Sᴏɴɢs', callback_data='music'),
             InlineKeyboardButton('ᴛᴛ-sᴘᴇᴄʜ', callback_data='tts'),
             InlineKeyboardButton('ᴛ-ɢʀᴀᴘʜ', callback_data='tgraph'),
             ],[
-            InlineKeyboardButton('Cᴏᴠɪᴅ', callback_data='cov'),
+            
             InlineKeyboardButton('N-Mᴏᴅᴇ', callback_data='Magan'),
             InlineKeyboardButton('Gᴀᴍᴇs', callback_data='games'),     
             ],[
-            InlineKeyboardButton('Mᴜᴛᴇ', callback_data='unk'),
+            
             InlineKeyboardButton('Uʀʟ Sʜᴏʀᴛɴᴇʀ', callback_data='shortner'),
             ],[
             InlineKeyboardButton('ᏴᎪᏟᏦ', callback_data='start'), 
@@ -764,18 +791,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "newdata":
         buttons = [[
             InlineKeyboardButton('гยlєร',  callback_data='rules'),
-            InlineKeyboardButton('๒คςкยק', callback_data='backup'),
-            InlineKeyboardButton('๓ﻮเς tєรt', callback_data='skyler'),
-            ],[
-            InlineKeyboardButton('คภเ๓є', callback_data='anime'),
-            InlineKeyboardButton('๓คtђร', callback_data='maths'),
+            
+            
+            
+            
             InlineKeyboardButton('гєคςt', callback_data='react'),
             ],[
-            InlineKeyboardButton('๓คгк๔๏ภђєlק', callback_data='mark'),
+            
             InlineKeyboardButton('ฬเкเקє๔เค', callback_data='wiki'),
             InlineKeyboardButton('ฬคllקคєקг', callback_data='wall'), 
             ],[
-            InlineKeyboardButton('lเtєŦยภ', callback_data='list'),
+            
             InlineKeyboardButton('ρเɳɠ', callback_data='ping'), 
             InlineKeyboardButton('gяουρ ιƒο', callback_data='grpinfo'),
             ],[
@@ -810,9 +836,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('❡Ʀᖰ ន៩ƬƬɨ⩎❡', callback_data='ad'), 
         InlineKeyboardButton('⨏ɭ០០ᖱ', callback_data='flood'),
         ],[
-        InlineKeyboardButton('♬ᖰᖰ០Ʀ⩔៩', callback_data='apr'),  
-        InlineKeyboardButton('ᖱɨន♬ᖲ♬ɭ៩', callback_data='disb'),
-        ],[
+        
+        
         InlineKeyboardButton('នƬƴɭ៩ Ƭ៩✗Ƭ', callback_data='st'),  
         InlineKeyboardButton('Ƭ♬❡ ♬ɭɭ', callback_data='tal'),
         ],[ 
@@ -1230,7 +1255,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "maths":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='newdata')
+            InlineKeyboardButton('« Back', callback_data='a')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1242,7 +1267,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "anime":
         buttons = [[
-            InlineKeyboardButton('« Back', callback_data='newdata')
+            InlineKeyboardButton('« Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1298,7 +1323,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "Games":
         buttons = [[
-            InlineKeyboardButton('back', callback_data='games')
+            InlineKeyboardButton('back', callback_data='a')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
