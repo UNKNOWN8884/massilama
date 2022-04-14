@@ -703,7 +703,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='help'),
             InlineKeyboardButton('ᴍᴀɢɪᴄᴛᴇxᴛ', callback_data='skyler'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
-            ]]
+          ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
@@ -725,7 +725,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='a'),
             InlineKeyboardButton('ʀᴇᴀᴄᴛ', callback_data='react'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
-            ]]
+          ]]
             reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.B_TXT,
@@ -799,7 +799,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='b'),
             InlineKeyboardButton('ᴛ-ɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='c'),
-            ]]
+          ]]
             reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEWDATA_TXT,
@@ -820,7 +820,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='newdata'),
             InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='auto_manual'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='d'),
-            ]]
+          ]]
             reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.C_TXT,
@@ -842,7 +842,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='c'),                             
             InlineKeyboardButton('ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢ', callback_data='ad'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='nest'),
-            ]]
+          ]]
             reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.C_TXT,
@@ -865,7 +865,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         InlineKeyboardButton('🄱🄰🄲🄺', callback_data='d'),
         InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
         InlineKeyboardButton('🅽🅴🆂🆃', callback_data='next'),
-        ]]
+      ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEST_TXT,
