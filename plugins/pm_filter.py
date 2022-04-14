@@ -799,7 +799,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴛ-ɢʀᴀᴘʜ', callback_data='tgraph'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='c'),
           ]]
-          reply_markup = InlineKeyboardMarkup(buttons)
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.NEWDATA_TXT,
             disable_web_page_preview=True,
@@ -820,7 +820,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Fɪʟᴛᴇʀs', callback_data='auto_manual'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='d'),
           ]]
-          reply_markup = InlineKeyboardMarkup(buttons)
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.C_TXT,
             disable_web_page_preview=True,
@@ -842,8 +842,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɢʀᴏᴜᴘ sᴇᴛᴛɪɴɢ', callback_data='ad'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='nest'),
           ]]
-          reply_markup = InlineKeyboardMarkup(buttons)
-          await query.message.edit_text(
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=Script.C_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
@@ -884,8 +884,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕', callback_data='next'),
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
+      reply_markup = InlineKeyboardMarkup(buttons)
+      await query.message.edit_text(
             text=Script.NEXT_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
