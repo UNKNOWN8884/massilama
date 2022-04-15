@@ -582,7 +582,7 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: 898456
+    STATUS_TXT = """🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: 0
 👥Total users : 0
 💖Total Chats:  0
 ⛽Used Storage:</b> 200 MIB
