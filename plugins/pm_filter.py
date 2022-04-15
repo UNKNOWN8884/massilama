@@ -874,16 +874,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
    elif query.data == "rog":
         buttons = [[
-        InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
-        InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
-        InlineKeyboardButton('ɪɴғᴏ', callback_data='in')
-        ],[
-        InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='sti'),
-        InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
-        InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='ins')
-        ],[
-        InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',callback_data='nest'),
-      ]]
+            InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
+            InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='in'),
+            ],[
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='sti'),
+            InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
+            InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='ins'),
+            ],[
+            InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',callback_data='nest'),
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ROG_TXT.format(query.from_user.mention),
