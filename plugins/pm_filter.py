@@ -863,7 +863,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
         InlineKeyboardButton('🄱🄰🄲🄺', callback_data='d'),
         InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
-        InlineKeyboardButton('🅽🅴🆂🆃', callback_data='erng'),
+        InlineKeyboardButton('🅽🅴🆂🆃', callback_data='enrg'),
       ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await query.message.edit_text(
@@ -873,7 +873,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
    
-   elif query.data == "erng":
+   elif query.data == "enrg":
         buttons = [[
         InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
         InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
