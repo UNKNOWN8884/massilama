@@ -884,18 +884,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
         InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄᴋ💕',callback_data='nest')
       ]]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await query.message.edit_text(
-            text=Script.ROG_TXT,
-            disable_web_page_preview=True,
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.ROG_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
         )
-   
-
-    
-          
-    
     elif query.data == "ins":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='e')
