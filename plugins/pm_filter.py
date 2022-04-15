@@ -873,7 +873,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
    
-   elif query.data == "e":
+   elif query.data == "erng":
         buttons = [[
         InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
         InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
