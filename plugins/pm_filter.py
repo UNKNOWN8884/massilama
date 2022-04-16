@@ -859,9 +859,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='d'),
             InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
             InlineKeyboardButton('🅽🅴🆂🆃', callback_data='e'),
-         ]]
-       reply_markup = InlineKeyboardMarkup(buttons)
-       await query.message.edit_text(
+          ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=Script.NEST_TXT,
             disable_web_page_preview=True,
             reply_markup=reply_markup,
