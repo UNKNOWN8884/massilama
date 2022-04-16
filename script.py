@@ -4,7 +4,9 @@ class Script(object):
  Mʏ Nᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>!
 
 <b>😀Hɪ Dᴜᴅᴇ Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ. I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs ᴀɴᴅ Mᴏʀᴇ Iɴғᴏ Cʟɪᴄᴋ Mᴇ Tʜᴇ Hᴇʟᴘ 🎐</b>"""
-     
+    
+    E_TXT = """hey"""
+ 
     ROG_TXT = """Hello"""
 
     D_TXT = """hey"""
