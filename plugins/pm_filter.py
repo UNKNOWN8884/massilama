@@ -866,7 +866,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             reply_markup=reply_markup,
             parse_mode='html'
-        )       
+        )
+    elif query.data == "e":
+        buttons = [[   
+            InlineKeyboardButton('Zᴏᴍʙɪᴇs', callback_data='zombies'),
+            InlineKeyboardButton('ᴘᴏᴋᴇᴍᴏɴ ɪɴғᴏ', callback_data='pok'),
+            InlineKeyboardButton('ɪɴғᴏ', callback_data='in'), 
+            ],[
+            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ', callback_data='sti'),
+            InlineKeyboardButton('ғᴇᴅᴇʀᴀᴛɪᴏɴ', callback_data='fed'),
+            InlineKeyboardButton('ɪɴsᴜʟᴛs', callback_data='in'),        
+            ],[
+            InlineKeyboardButton('ᴛʜᴇ ᴇɴᴅ ɢᴏ ʙᴀᴄk', callback_data='nest'),
+            InlineKeyboardButton('Iɴғᴏ', callback_data='info'),
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='help'),
+          ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=Script.E_TXT,
+            disable_web_page_preview=True,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )
     elif query.data == "ins":
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='d')
