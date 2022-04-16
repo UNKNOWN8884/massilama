@@ -584,11 +584,15 @@ Tʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs
 • /channel - to get list of total connected channels.
 • /broadcast - to broadcast a message to all users."""
 
-    STATUS_TXT = """🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: 0
-👥Total users : 0
-💖Total Chats:  0
-⛽Used Storage:</b> 200 MIB
-🛢️Free Storage:</b> 250 MiB"""
+    STATUS_TXT = """ 
+  █▀ ▀█▀ ▄▀█ ▀█▀ █▀
+▄█ ░█░ █▀█ ░█░ ▄█
+
+🗂️<b>Tᴏᴛᴀʟ Fɪʟᴇs</b>: 900670
+👥Total users : 5600
+💖Total Chats:  2507
+⛽Used Storage:</b> 259 MIB
+🛢️Free Storage:</b> 500 MiB"""
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
@@ -596,8 +600,7 @@ __🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have T
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
-    MEMES_TXT = """Help: <b>Fᴜɴ</b>
-
+    MEMES_TXT = """Help: 
 ʜᴇʀᴇ sᴏᴍᴇ ғᴜɴs ᴀʀᴇ ᴛʜᴇʀᴇ ᴛʀʏ ᴏᴜᴛ ɴᴏᴡ
 
 <b>ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴜsᴀɢᴇ:</b>
