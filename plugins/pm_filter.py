@@ -702,7 +702,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='help'),
             InlineKeyboardButton('ᴍᴀɢɪᴄᴛᴇxᴛ', callback_data='skyler'),
-            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
+            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='b'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -723,7 +723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('🄱🄰🄲🄺', callback_data='a'),
             InlineKeyboardButton('ʀᴇᴀᴄᴛ', callback_data='react'),
-            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='a'),
+            InlineKeyboardButton('🅽🅴🆂🆃', callback_data='newdata'),
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
