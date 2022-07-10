@@ -15,10 +15,10 @@ from bs4 import BeautifulSoup
 import requests
 
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+log
 
 BTN_URL_REGEX = re.compile(
-    r"(\[([^\[]+?)\]\((buttonurl|buttonalert):(?:/{0,2})(.+?)(:same)?\))"
+?:/{0,2})(.+?)(:same)?\))"
 )
 
 imdb = IMDb() 
@@ -26,7 +26,7 @@ imdb = IMDb()
 BANNED = {}
 SMART_OPEN = '“'
 SMART_CLOSE = '”'
-START_CHAR = ('\'', '"', SMART_OPEN)
+
 
 # temp db for banned 
 class temp(object):
@@ -40,7 +40,7 @@ class temp(object):
     B_NAME = None
 
 async def is_subscribed(bot, query):
-    try:
+    try
         user = await bot.get_chat_member(AUTH_CHANNEL, query.from_user.id)
     except UserNotParticipant:
         pass
@@ -85,7 +85,7 @@ async def get_poster(query, bulk=False, id=False, file=None):
     else:
         movieid = int(query)
     movie = imdb.get_movie(movieid)
-    if movie.get("original air date"):
+ 
         date = movie["original air date"]
     elif movie.get("year"):
         date = movie.get("year")
@@ -97,7 +97,7 @@ async def get_poster(query, bulk=False, id=False, file=None):
         if plot and len(plot) > 0:
             plot = plot[0]
     else:
-        plot = movie.get('plot outline')
+        plot = movie.g
     if plot and len(plot) > 800:
         plot = plot[0:800] + "..."
 
@@ -138,23 +138,7 @@ async def broadcast_messages(user_id, message):
         return True, "Success"
     except FloodWait as e:
         await asyncio.sleep(e.x)
-        return await broadcast_messages(user_id, message)
-    except InputUserDeactivated:
-        await db.delete_user(int(user_id))
-        logging.info(f"{user_id}-Removed from Database, since deleted account.")
-        return False, "Deleted"
-    except UserIsBlocked:
-        logging.info(f"{user_id} -Blocked the bot.")
-        return False, "Blocked"
-    except PeerIdInvalid:
-        await db.delete_user(int(user_id))
-        logging.info(f"{user_id} - PeerIdInvalid")
-        return False, "Error"
-    except Exception as e:
-        return False, "Error"
-
-async def search_gagala(text):
-    usr_agent = {
+        return await 
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
         'Chrome/61.0.3163.100 Safari/537.36'
         }
