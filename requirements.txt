@@ -13,7 +13,7 @@ aiofiles
 requests
 pyshorteners
 bs4
-imdbpy
+imdbpy==2021.4.18
 youtube-search-python==1.4.6
 youtube_search
 youtube-dl
